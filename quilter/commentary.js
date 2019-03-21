@@ -33,7 +33,7 @@ const spec = {
       }
     ]
   },
-  
+
   hasMistakes: {
     groups: [
       {
@@ -89,7 +89,7 @@ const spec = {
       }
     ]
   },
-  
+
   journey: {
     groups: [
       {
@@ -102,7 +102,7 @@ const spec = {
       }
     ]
   },
-  
+
   quilting: {
     groups: [
       {
@@ -119,7 +119,7 @@ const spec = {
       }
     ]
   },
-  
+
   great: {
     groups: [
       {
@@ -159,7 +159,7 @@ const spec = {
           "patterned",
           "floral",
           "unique",
-          "scrap"          
+          "scrap"
         ]
       }
     ]
@@ -240,12 +240,12 @@ function commentary() {
   const improv = new Improv(spec,
    {
       builtins: {
-        squares (str) { return str + " x " + str; } 
+        squares (str) { return str + " x " + str; }
       }
     }
   );
   return improv.gen('root');
-  
+
 }
 
 module.exports = commentary;
